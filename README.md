@@ -49,17 +49,11 @@ Check out the live project here:
 
 ```text
 ├── index.html          # Main HTML structure
-
 ├── header.css          # Top bar and filter ribbon styles
-
 ├── side-bar.css        # Multi-tiered sidebar menu styles
-
 ├── body.css            # Video card grids and Shorts section styles
-
 ├── general.css         # Global resets, typography, and base layout
-
 ├── icons/              # SVG assets and interface icons
-
 └── photos/             # Thumbnails, channel avatars, and user pictures
 ```
 
