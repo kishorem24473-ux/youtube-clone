@@ -1,0 +1,39 @@
+.side-bar{
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    width: 250px;
+    overflow-y: auto;
+   scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.side-bar:hover {
+    scrollbar-color: #717171 transparent;
+}
+.side-bar-div{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.side-bar  img{
+    width: 29px;
+    height: 29px;
+}
+.side-bar div{
+    font-size: 15px ;
+    font-weight: 500;
+}
+.side-bar-underline{
+    border-bottom: 1px solid rgb(89, 85, 85);
+}
+.side-bar-underline2{
+    border-bottom: 1px solid rgb(89, 85, 85);
+}

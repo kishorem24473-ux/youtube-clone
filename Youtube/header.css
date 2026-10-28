@@ -1,0 +1,112 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: 80px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 40px 0 40px;
+    z-index: 100;
+}
+.first-header{
+    display: flex;
+    align-items: center;
+    
+}
+.hamburger{
+    color: white;
+    padding-right: 10px;
+}
+.mid-header{
+    display: flex;
+    align-items: center;
+}
+.mid-search{
+    width: 500px;
+    padding: 10px;
+    padding-bottom: px;
+    border: 1px solid rgb(89, 85, 85);
+    border-radius: 50px 0 0 50px;
+    color: rgb(150, 149, 149);
+    font-size: medium;
+    background-color: black;
+}
+.mid-zoom{
+    object-fit: cover;
+    background-color: grey;
+    color: white;
+}
+.mid-zoom-button{
+    height: 41px;
+    width: 70px;
+    border: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    margin-left: -7px;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(89, 85, 85);
+    align-items: center;
+    color: white;
+    display: inline-block;
+}
+.mid-mic-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: none;
+    background-color:   rgb(149, 148, 148);
+    margin-left: 15PX;
+}
+.plus-header{
+    color: white;
+    background-color: rgb(89, 85, 85);
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 500;
+    width: 70px;
+    padding: 8px;
+    border-radius: 25px;
+}
+.user-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.last-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header2{
+    display: flex;
+    background-color: black;
+    height: 60px;
+   gap: 1rem;
+    align-items: start;
+    position: fixed;
+    left: 250px;
+    top: 80px;
+    right: 0;
+    z-index: 100;
+}
+#button1{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.header2 button{
+    font-size: small;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
