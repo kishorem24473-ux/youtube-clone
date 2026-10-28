@@ -45,8 +45,6 @@ Check out the live project here:
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```text
 ├── index.html          # Main HTML structure
 ├── header.css          # Top bar and filter ribbon styles
@@ -56,4 +54,5 @@ Check out the live project here:
 ├── icons/              # SVG assets and interface icons
 └── photos/             # Thumbnails, channel avatars, and user pictures
 ```
+
 
